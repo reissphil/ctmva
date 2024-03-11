@@ -81,7 +81,7 @@ cor2_plus_plot <- function(ccode, v1, v2, lag=0, min.overlap=0, main=NULL, ...) 
 library(dplyr)
 library(ggpubr)
 
-datafolder <-  "~/data/WDI/"  # insert data folder name here 
+datafolder <-  "../data/"  # insert data folder name here 
 whocountries <- read.csv(paste0(datafolder,"who-countries.csv"), header=FALSE)
 whocodes <- whocountries[,2]
 mydat <- read.csv(paste0(datafolder,"WDI-5-vbles.csv"), header=TRUE)
