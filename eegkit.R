@@ -32,7 +32,7 @@ ggplot(fdo$longdat, aes(time, voltage)) + geom_line() + facet_wrap(vars(channel)
 
 pve <- 100*cc$var/sum(cc$var)
 par(mfrow=c(1,3))
-cidx <- match(fdo$widedat[,1],rownames(eegcoord))
+cidx <- match(fdo$widedat[,1], rownames(eegcoord))
 eegspace(eegcoord[cidx,4:5],cc$loadings[,1], colorlab="PC1 loadings", 
          mycolors=cividis(25), main=paste0(round(pve[1],0), "%"), mar=c(17,3,12,2), cex.main=2)
 eegspace(eegcoord[cidx,4:5],cc$loadings[,2], colorlab="PC2 loadings", 
