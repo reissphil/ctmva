@@ -1,22 +1,5 @@
 # Functions to be used below for World Development Indices analyses
 
-# Extract a subset of the indices
-extract <- function(incodes, newnames=NULL) {
-  wdisome <- subset(wdiall, Indicator.Code %in% incodes)
-  wdil <- reshape(wdisome, direction="long", timevar="year", varying=5:67, sep="")
-  wdil$coyear <- with(wdil, paste0(Country.Code, year))
-  wdiw <- reshape(wdil, direction="wide", drop=c("Indicator.Name","id"), 
-                  timevar="Indicator.Code", idvar="coyear", v.names="X")
-  rownames(wdiw) <- wdiw$coyear
-  wdiw <- wdiw %>% rename(countrycode=Country.Code, countryname=Country.Name) %>%
-    mutate(coyear=NULL)
-  for (j in 1:length(names(wdiw))) {
-    name <- names(wdiw)[j]
-    if (substr(name,1,2)=="X.") names(wdiw)[j] <- substr(name,3,nchar(name))
-  }
-  wdiw
-}
-
 # Obtain country-specific CT correlation between two variables
 cor2 <- function(ccode, v1, v2, lag=0, min.overlap=0) {
   require(mgcv); require(ctmva)
@@ -98,31 +81,10 @@ cor2_plus_plot <- function(ccode, v1, v2, lag=0, min.overlap=0, main=NULL, ...) 
 library(dplyr)
 library(ggpubr)
 
-datafolder <-  "~/data"  # insert data folder name here 
+datafolder <-  "~/data/WDI/"  # insert data folder name here 
 whocountries <- read.csv(paste0(datafolder,"who-countries.csv"), header=FALSE)
 whocodes <- whocountries[,2]
-wdiall <- read.csv(paste0(datafolder,"WDICSV.csv")) %>% filter(Country.Code %in% whocodes)
-nobs <- wdiall %>% group_by(Indicator.Code) %>%
-  summarize(n1960=sum(!is.na(X1960)), n1970=sum(!is.na(X1970)), n1980=sum(!is.na(X1980)), 
-            n1990=sum(!is.na(X1990)), n2000=sum(!is.na(X2000)), n2010=sum(!is.na(X2010)), 
-            n2020=sum(!is.na(X2020)))
-print(nobs) 
-
-mydat <- extract(c("SP.DYN.TFRT.IN",    # fertility rate
-                   "SE.SEC.ENRR.FE",    # female sec school enrollment
-                   "SP.DYN.LE00.FE.IN", # female life expectancy
-                   "NY.GDP.MKTP.KD",    # GDP
-                   "SP.POP.TOTL",       # population
-                   "NE.GDI.FTOT.ZS"     # investment
-                   )) %>%
-  mutate(gdp.pc = NY.GDP.MKTP.KD/SP.POP.TOTL, NY.GDP.MKTP.KD=NULL, SP.POP.TOTL=NULL) %>%
-  rename(fertility=SP.DYN.TFRT.IN,  
-         fem.sec.enroll=SE.SEC.ENRR.FE, 
-         fem.life.ex=SP.DYN.LE00.FE.IN, investment=NE.GDI.FTOT.ZS) %>% 
-  relocate(gdp.pc, .after=fertility) 
-
-nvar <- ncol(mydat)
-summary(mydat)
+mydat <- read.csv(paste0(datafolder,"WDI-5-vbles.csv"), header=TRUE)
 
 # Create list of country-specific data sets
 wlist <- list()
@@ -145,7 +107,7 @@ range(tmp$yr2)
 
 # Grid of histograms of correlations between pairs of variables
 hisdat <- NULL 
-system.time(for (i in 4:(nvar-1)) for (j in (i+1):nvar) {
+system.time(for (i in 4:7) for (j in (i+1):8) {
   v1 <- names(mydat)[i]; v2 <- names(mydat)[j]
   cat(v1,'\t',v2,'\n')
   cors <- c()
@@ -155,11 +117,11 @@ system.time(for (i in 4:(nvar-1)) for (j in (i+1):nvar) {
   }
 })
 hisdat <- as.data.frame(hisdat)
-nrow(hisdat) / 216 / choose(nvar-3,2)   # proportion of correlations that can be computed
+nrow(hisdat) / 216 / choose(5,2)   # proportion of correlations that can be computed
 names(hisdat) <- c("countrycode","v1", "v2", "correlation")
 hisdat$correlation <- as.numeric(hisdat$correlation)
-hisdat$v1 <- factor(hisdat$v1, names(mydat)[4:(nvar-1)])
-hisdat$v2 <- factor(hisdat$v2, names(mydat)[5:nvar])
+hisdat$v1 <- factor(hisdat$v1, names(mydat)[4:7)])
+hisdat$v2 <- factor(hisdat$v2, names(mydat)[5:8])
 
 gghistogram(hisdat, "correlation", facet.by=c('v1','v2'), fill="blue") 
 
