@@ -1,0 +1,250 @@
+COUNTRY,AFG,Afghanistan
+COUNTRY,ALB,Albania
+COUNTRY,DZA,Algeria
+COUNTRY,AND,Andorra
+COUNTRY,AGO,Angola
+COUNTRY,ATG,Antigua and Barbuda
+COUNTRY,ARG,Argentina
+COUNTRY,ARM,Armenia
+COUNTRY,AUS,Australia
+COUNTRY,AUT,Austria
+COUNTRY,AZE,Azerbaijan
+COUNTRY,BHS,Bahamas
+COUNTRY,BHR,Bahrain
+COUNTRY,BGD,Bangladesh
+COUNTRY,BRB,Barbados
+COUNTRY,BLR,Belarus
+COUNTRY,BEL,Belgium
+COUNTRY,BLZ,Belize
+COUNTRY,BEN,Benin
+COUNTRY,BTN,Bhutan
+COUNTRY,BOL,Bolivia (Plurinational State of)
+COUNTRY,BIH,Bosnia and Herzegovina
+COUNTRY,BWA,Botswana
+COUNTRY,BRA,Brazil
+COUNTRY,BRN,Brunei Darussalam
+COUNTRY,BGR,Bulgaria
+COUNTRY,BFA,Burkina Faso
+COUNTRY,BDI,Burundi
+COUNTRY,KHM,Cambodia
+COUNTRY,CMR,Cameroon
+COUNTRY,CAN,Canada
+COUNTRY,CPV,Cabo Verde
+COUNTRY,CAF,Central African Republic
+COUNTRY,TCD,Chad
+COUNTRY,CHL,Chile
+COUNTRY,CHN,China
+COUNTRY,COL,Colombia
+COUNTRY,COM,Comoros
+COUNTRY,COG,Congo
+COUNTRY,COK,Cook Islands
+COUNTRY,CRI,Costa Rica
+COUNTRY,HRV,Croatia
+COUNTRY,CUB,Cuba
+COUNTRY,CYP,Cyprus
+COUNTRY,CZE,Czechia
+COUNTRY,CIV,Cote d'Ivoire
+COUNTRY,PRK,Democratic People's Republic of Korea
+COUNTRY,COD,Democratic Republic of the Congo
+COUNTRY,DNK,Denmark
+COUNTRY,DJI,Djibouti
+COUNTRY,DMA,Dominica
+COUNTRY,DOM,Dominican Republic
+COUNTRY,ECU,Ecuador
+COUNTRY,EGY,Egypt
+COUNTRY,SLV,El Salvador
+COUNTRY,GNQ,Equatorial Guinea
+COUNTRY,ERI,Eritrea
+COUNTRY,EST,Estonia
+COUNTRY,ETH,Ethiopia
+COUNTRY,FJI,Fiji
+COUNTRY,FIN,Finland
+COUNTRY,FRA,France
+COUNTRY,GAB,Gabon
+COUNTRY,GMB,Gambia
+COUNTRY,GEO,Georgia
+COUNTRY,DEU,Germany
+COUNTRY,GHA,Ghana
+COUNTRY,GRC,Greece
+COUNTRY,GRD,Grenada
+COUNTRY,GTM,Guatemala
+COUNTRY,GIN,Guinea
+COUNTRY,GNB,Guinea-Bissau
+COUNTRY,GUY,Guyana
+COUNTRY,HTI,Haiti
+COUNTRY,HND,Honduras
+COUNTRY,HUN,Hungary
+COUNTRY,ISL,Iceland
+COUNTRY,IND,India
+COUNTRY,IDN,Indonesia
+COUNTRY,IRN,Iran (Islamic Republic of)
+COUNTRY,IRQ,Iraq
+COUNTRY,IRL,Ireland
+COUNTRY,ISR,Israel
+COUNTRY,ITA,Italy
+COUNTRY,JAM,Jamaica
+COUNTRY,JPN,Japan
+COUNTRY,JOR,Jordan
+COUNTRY,KAZ,Kazakhstan
+COUNTRY,KEN,Kenya
+COUNTRY,KIR,Kiribati
+COUNTRY,KWT,Kuwait
+COUNTRY,KGZ,Kyrgyzstan
+COUNTRY,LAO,Lao People's Democratic Republic
+COUNTRY,LVA,Latvia
+COUNTRY,LBN,Lebanon
+COUNTRY,LSO,Lesotho
+COUNTRY,LBR,Liberia
+COUNTRY,LBY,Libya
+COUNTRY,LTU,Lithuania
+COUNTRY,LUX,Luxembourg
+COUNTRY,MDG,Madagascar
+COUNTRY,MWI,Malawi
+COUNTRY,MYS,Malaysia
+COUNTRY,MDV,Maldives
+COUNTRY,MLI,Mali
+COUNTRY,MLT,Malta
+COUNTRY,MHL,Marshall Islands
+COUNTRY,MRT,Mauritania
+COUNTRY,MUS,Mauritius
+COUNTRY,MEX,Mexico
+COUNTRY,FSM,Micronesia (Federated States of)
+COUNTRY,MCO,Monaco
+COUNTRY,MNG,Mongolia
+COUNTRY,ME1,The former state union Serbia and Montenegro
+COUNTRY,MAR,Morocco
+COUNTRY,MOZ,Mozambique
+COUNTRY,MMR,Myanmar
+COUNTRY,NAM,Namibia
+COUNTRY,NRU,Nauru
+COUNTRY,NPL,Nepal
+COUNTRY,NLD,Netherlands (Kingdom of the)
+COUNTRY,NZL,New Zealand
+COUNTRY,NIC,Nicaragua
+COUNTRY,NER,Niger
+COUNTRY,NGA,Nigeria
+COUNTRY,NIU,Niue
+COUNTRY,NOR,Norway
+COUNTRY,OMN,Oman
+COUNTRY,PAK,Pakistan
+COUNTRY,PLW,Palau
+COUNTRY,PAN,Panama
+COUNTRY,PNG,Papua New Guinea
+COUNTRY,PRY,Paraguay
+COUNTRY,PER,Peru
+COUNTRY,PHL,Philippines
+COUNTRY,POL,Poland
+COUNTRY,PRT,Portugal
+COUNTRY,QAT,Qatar
+COUNTRY,KOR,Republic of Korea
+COUNTRY,MDA,Republic of Moldova
+COUNTRY,ROU,Romania
+COUNTRY,RUS,Russian Federation
+COUNTRY,RWA,Rwanda
+COUNTRY,KNA,Saint Kitts and Nevis
+COUNTRY,LCA,Saint Lucia
+COUNTRY,VCT,Saint Vincent and the Grenadines
+COUNTRY,WSM,Samoa
+COUNTRY,SMR,San Marino
+COUNTRY,STP,Sao Tome and Principe
+COUNTRY,SAU,Saudi Arabia
+COUNTRY,SEN,Senegal
+COUNTRY,SRB,Serbia
+COUNTRY,SYC,Seychelles
+COUNTRY,SLE,Sierra Leone
+COUNTRY,SGP,Singapore
+COUNTRY,SVK,Slovakia
+COUNTRY,SVN,Slovenia
+COUNTRY,SLB,Solomon Islands
+COUNTRY,SOM,Somalia
+COUNTRY,ZAF,South Africa
+COUNTRY,ESP,Spain
+COUNTRY,LKA,Sri Lanka
+COUNTRY,SDN,Sudan
+COUNTRY,SUR,Suriname
+COUNTRY,SWZ,Eswatini
+COUNTRY,SWE,Sweden
+COUNTRY,CHE,Switzerland
+COUNTRY,SYR,Syrian Arab Republic
+COUNTRY,TJK,Tajikistan
+COUNTRY,THA,Thailand
+COUNTRY,MKD,North Macedonia
+COUNTRY,TLS,Timor-Leste
+COUNTRY,TGO,Togo
+COUNTRY,TON,Tonga
+COUNTRY,TTO,Trinidad and Tobago
+COUNTRY,TUN,Tunisia
+COUNTRY,TUR,Turkiye
+COUNTRY,TKM,Turkmenistan
+COUNTRY,TUV,Tuvalu
+COUNTRY,UGA,Uganda
+COUNTRY,UKR,Ukraine
+COUNTRY,ARE,United Arab Emirates
+COUNTRY,GBR,United Kingdom of Great Britain and Northern Ireland
+COUNTRY,TZA,United Republic of Tanzania
+COUNTRY,USA,United States of America
+COUNTRY,URY,Uruguay
+COUNTRY,UZB,Uzbekistan
+COUNTRY,VUT,Vanuatu
+COUNTRY,VEN,Venezuela (Bolivarian Republic of)
+COUNTRY,VNM,Viet Nam
+COUNTRY,YEM,Yemen
+COUNTRY,ZMB,Zambia
+COUNTRY,ZWE,Zimbabwe
+COUNTRY,MNE,Montenegro
+COUNTRY,REU,Reunion
+COUNTRY,XOD,Rodrigues
+COUNTRY,AIA,Anguilla
+COUNTRY,ABW,Aruba
+COUNTRY,BMU,Bermuda
+COUNTRY,VGB,British Virgin Islands
+COUNTRY,CYM,Cayman Islands
+COUNTRY,FLK,Falkland Islands (Malvinas)
+COUNTRY,GLP,Guadeloupe
+COUNTRY,MTQ,Martinique
+COUNTRY,MSR,Montserrat
+COUNTRY,ANT,Netherlands Antilles
+COUNTRY,PRI,Puerto Rico
+COUNTRY,SPM,Saint Pierre and Miquelon
+COUNTRY,TCA,Turks and Caicos Islands
+COUNTRY,VIR,Virgin Islands (USA)
+COUNTRY,XX1,"China, Province of Taiwan only"
+COUNTRY,HKG,"China, Hong Kong Special Administrative Region"
+COUNTRY,MAC,"China, Macao Special Administrative Region"
+COUNTRY,XX4,Ryu Kyu Islands
+COUNTRY,XX5,"Czechoslovakia, Former"
+COUNTRY,XX6,"Germany, Former Democratic Republic"
+COUNTRY,XX7,"Germany, Former Federal Republic"
+COUNTRY,XX8,"Germany, West Berlin"
+COUNTRY,XX9,"USSR, Former"
+COUNTRY,GUF,French Guiana
+COUNTRY,X10,"United Kingdom, England and Wales"
+COUNTRY,X11,"United Kingdom, Northern Ireland"
+COUNTRY,X12,"United Kingdom, Scotland"
+COUNTRY,X13,"Yugoslavia, Former"
+COUNTRY,SCG,"Serbia and Montenegro, Former"
+COUNTRY,PSE,"occupied Palestinian territory, including east Jerusalem"
+COUNTRY,NA,NA
+COUNTRY,GUM,Guam
+COUNTRY,MYT,Mayotte
+COUNTRY,PYF,French Polynesia
+COUNTRY,FRO,Faroe Islands
+COUNTRY,GRL,Greenland
+COUNTRY,SHN,Saint Helena
+COUNTRY,NCL,New Caledonia
+COUNTRY,ASM,American Samoa
+COUNTRY,TKL,Tokelau
+COUNTRY,MNP,Northern Mariana Islands
+COUNTRY,GIB,Gibraltar
+COUNTRY,LIE,Liechtenstein
+COUNTRY,PCN,Pitcairn Island
+COUNTRY,WLF,Wallis and Futuna Islands
+COUNTRY,NFK,Norfolk Island
+COUNTRY,BES,"Bonaire, Saint Eustatius and Saba"
+COUNTRY,CUW,Curaçao
+COUNTRY,SXM,Sint Maarten (Dutch part)
+COUNTRY,SSD,South Sudan
+COUNTRY,SDF,Sudan (former)
+COUNTRY,CHI,Channel islands
+COUNTRY,IMN,Isle of Man
+COUNTRY,XKX,Kosovo (in accordance with UN Security Council resolution 1244 (1999))
